@@ -1,0 +1,47 @@
+.container {
+  background-color: #febb02;
+  border-radius: 10px;
+  padding: 10px;
+}
+/* title */
+.title {
+  color: #555555;
+}
+/* form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.options {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  row-gap: 0.5rem;
+}
+.label {
+  font-size: 13px;
+}
+.input {
+  width: 98%;
+  height: 2rem;
+  border: 0px;
+}
+.p {
+  font-size: 13px;
+}
+.options label {
+  font-size: 10px;
+}
+.options input {
+  width: 90%;
+}
+
+/* btn submit */
+.btn-submit {
+  width: 100%;
+  border: 0px;
+  height: 40px;
+  background-color: #0071c2;
+  color: white;
+}

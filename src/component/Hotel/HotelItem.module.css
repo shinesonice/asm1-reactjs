@@ -1,0 +1,30 @@
+.image {
+  width: 100%;
+  height: 220px;
+}
+.title {
+  text-decoration: underline;
+  font-weight: bold;
+  color: rgb(59, 14, 102);
+}
+
+.price {
+  font-weight: bold;
+}
+.rank {
+  display: flex;
+  gap: 1rem;
+}
+.city {
+  font-size: 14px;
+}
+.rate {
+  padding: 2px;
+  background-color: #003580;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

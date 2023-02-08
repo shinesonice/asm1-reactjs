@@ -1,0 +1,27 @@
+.container {
+  background-color: #003580;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.container .top {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  margin: 0px 1rem;
+}
+.container .bottom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 60%;
+  display: flex;
+  gap: 1rem;
+}
+.logo {
+  margin-top: 4px;
+}

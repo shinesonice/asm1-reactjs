@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0px;
+}
+
+.search-layout {
+  width: 60%;
+  display: grid;
+  align-items: start;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
+}

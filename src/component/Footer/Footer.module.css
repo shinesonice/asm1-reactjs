@@ -1,0 +1,11 @@
+.container {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}

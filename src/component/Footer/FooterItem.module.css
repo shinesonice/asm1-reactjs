@@ -1,0 +1,11 @@
+.items {
+  list-style-type: none;
+  list-style-position: outside;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.item {
+  color: #003580;
+  font-size: 10px;
+}

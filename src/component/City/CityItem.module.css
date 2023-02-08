@@ -1,0 +1,17 @@
+.image {
+  width: 100%;
+  border-radius: 1rem;
+}
+.item {
+}
+.content {
+  height: 0px;
+  color: white;
+  bottom: 6rem;
+  left: 1rem;
+  margin: 1rem;
+  position: relative;
+}
+.text {
+  font-weight: bold;
+}

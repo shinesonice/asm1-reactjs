@@ -1,0 +1,50 @@
+.container-form {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 3px solid #febf10;
+  border-radius: 4px;
+  height: 3rem;
+
+  transform: translate(0, 50%);
+}
+.form {
+  color: rgba(0, 0, 0, 0.7);
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.input input {
+  height: 100%;
+  margin-left: 1rem;
+  border: 0px;
+  width: 80%;
+}
+.input {
+  width: 30%;
+}
+.btn {
+  background-color: #003580;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 0px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.date-box {
+  width: 300px;
+  height: 300px;
+  z-index: 1000;
+  position: relative;
+}
+.daterange {
+  position: absolute;
+  left: 50%;
+  transform: translate(-55%, 2%);
+}
+.hidden {
+  display: none;
+}

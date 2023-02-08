@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.type {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.header {
+  width: 60%;
+  margin-bottom: 2rem;
+}
